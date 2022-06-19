@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header img{
+    width: 100%;
+    padding: 9%;
+}
+a{
+    text-decoration: none;
+}
+.leftSide, .rightSide{
+    display: flex;
+    align-items: center;
+
+}
+nav{
+    display: flex !important;
+}
+.rightSide p,.leftSide p{
+    padding: 0 7% 0 7%;
+}
+.leftSide{
+    justify-content: end;
+}
+.carousel-caption{
+    padding-bottom: 10% !important;
+}
+.carousel-caption img{
+    transition: 1s;
+}
+header{
+    position: fixed;
+    z-index: 110;
+    width: 100%;
+    color: white;
+}
+header a{
+    color: white;
+}
+.section2{
+    background-image: url("https://baker.qodeinteractive.com/wp-content/uploads/2017/02/home-5-parallax.jpg");
+    background-position: center;
+    background-attachment: fixed;
+}
+
